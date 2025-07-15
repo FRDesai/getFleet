@@ -9,8 +9,8 @@ import { LockKeyhole, Mail, Send } from "lucide-react";
 
 export default function LoginPage() {
   const router = useRouter();
-  const [email, setEmail] = useState("test@getfleet.ai"); // Pre-filled for debug
-  const [password, setPassword] = useState("test");
+  const [email, setEmail] = useState(""); // Pre-filled for debug test@getfleet.ai
+  const [password, setPassword] = useState(""); //test
   const [error, setError] = useState("");
 
   const handleLogin = async () => {
